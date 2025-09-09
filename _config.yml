@@ -1,0 +1,26 @@
+title: AI Notes & Journey
+description: "Technical blog on AI, ML, LLMs, and personal learnings."
+url: "https://minggu.github.io"
+baseurl: ""
+
+# Build settings
+theme: minima
+markdown: kramdown
+permalink: pretty
+future: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Minima options
+show_excerpts: true
+
+# Navigation (order matters)
+header_pages:
+  - about.md
+  - archive.md
+
+author:
+  name: George
